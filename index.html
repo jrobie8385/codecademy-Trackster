@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trackster</title>
+  <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Work+Sans:400,500" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon"> <!--- https://www.favicon-generator.org/ --->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-xs-12" id="main-heading">
+        <h1>trackster</h1>
+        <a class="text-box"><input id=text-box-input type="text" placeholder="What're you looking for?" style="background-color:rgb(191, 191, 191); border:0; margin-left:0.5rem"></a>
+        <a class="search-button"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-xs-12" id="title-heading">
+        <div class="play-button col-lg-1 col-md-1 col-xs-1">
+        </div>
+        <div class="song col-lg-4 col-md-4 col-xs-4">
+          <a>Song</a>
+        </div>
+        <div class="artist col-lg-4 col-md-4 col-xs-4">
+          <a>Artist</a>
+        </div>
+        <div class="album col-lg-1 col-md-1 col-xs-1">
+          <a>Artwork</a>
+        </div>
+        <div class="popularity col-lg-2 col-md-2 col-xs-2">
+          <a>Popularity</a>
+        </div>
+      </div>
+    </div>
+
+      <!--- Tracks section --->
+
+      <div id="trackList">
+      </div>
+
+      <div class="footer col-lg-12 col-md-12 col-xs-12" id="main-heading">
+        <h1>trackster</h1>
+        <a class="text-box"><input id=text-box-input type="text" placeholder="What're you looking for?" style="background-color:rgb(191, 191, 191); border:0; margin-left:0.5rem"></a>
+        <a class="dynamic search-button"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+  </div>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script> <!--- https://code.jquery.com/ --->
+  <script type="text/javascript" src="./resources/js/trackster.js"></script>
+  <script type="text/javascript" src="./resources/js/tests.js"></script>
+</body>
+</html>
